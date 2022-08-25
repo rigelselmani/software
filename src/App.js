@@ -1,9 +1,12 @@
+
+import Nav from "./nav/Nav"
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-       <h1>Software</h1>
+           <Nav />
     </div>
   );
 }
