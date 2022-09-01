@@ -1,5 +1,5 @@
+import Nav from "./nav/Nav";
 
-import Nav from "./nav/Nav"
 
 import './App.css';
 
