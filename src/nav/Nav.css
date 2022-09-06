@@ -1,3 +1,12 @@
 nav{
-    background-color:#A6D1E6;
+    background-color:#f7fafc;
+    font-weight: bold;
+    color:rgb(103, 110, 110);
+    letter-spacing: 2px;
+}
+.navbar-brand{
+    color:rgb(25, 175, 125);
+}
+.navbar-brand:hover{
+    color: rgb(142, 228, 199);
 }
