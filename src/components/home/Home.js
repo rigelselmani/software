@@ -15,12 +15,12 @@ export default function Home(){
     return(
         <div>
             <div style={myStyle}>
-                 <h1>Next Generation Software</h1>
+                 <h1>......... Software</h1>
                  <button className="start-btn">Get Started</button>
                  <button className="services-btn">Our Services</button>
             </div>
             <div className="consult-services">
-                 <h5>Mosaic Software is a consultancy working with companies seeking knowledge and support from software developers and engineers, data scientists, and product development teams located in the United States and Canada. Mosaic Software offers technical and business expertise to convert your strategies into software systems that optimize your business performance.</h5>
+                 <h5>........... Software is a consultancy working with companies seeking knowledge and support from software developers and engineers, data scientists, and product development teams located in the United States and Canada. Mosaic Software offers technical and business expertise to convert your strategies into software systems that optimize your business performance.</h5>
                  <h2>What we do</h2>
                  <h6>Our team provides a wealth of professional software capabilities
                  to bring your innovative ideas to life.
