@@ -15,7 +15,7 @@ export default function  Nav (){
                        <a className="nav-link" aria-current="page" href="/about">ABOUT US</a>
                      </li>
                      <li className="nav-item">
-                       <a className="nav-link" href="/services">SERVICES</a>
+                       <a className="nav-link" href="/services">SERVICES.ser</a>
                      </li>
                      <li className="nav-item">
                        <a className="nav-link" href="/contact">Contact US</a>
