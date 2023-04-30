@@ -1,0 +1,22 @@
+.nav-item{
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.logo-img{
+    width: 8em;
+}
+.email-contac{
+    text-decoration: none;
+    color:grey;
+    font-size: 12px;
+ }
+
+ .links{
+    border-bottom: .4px solid rgb(231, 230, 230);
+ }
+ .icon{
+    text-decoration: none;
+ }
