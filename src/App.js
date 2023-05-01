@@ -1,5 +1,6 @@
 import  {BrowserRouter, Route, Routes} from "react-router-dom"
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import Home from ".//pages/home/Home";
 import About from ".//pages/about/About";
 import Services from ".//pages/Services/Services";
@@ -7,6 +8,7 @@ import Contact from ".//pages/contact/Contact";
 
 
 import './App.css';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
               <Route path="/services" element={<Services/>}/>
               <Route path="/contact" element={<Contact/>}/>
             </Routes>
+            <Footer />
            </BrowserRouter>
     </div>
   );

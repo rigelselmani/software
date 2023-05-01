@@ -10,9 +10,9 @@ export default function  Nav (){
                <a className="email-contac" href="mailto: rigel.selmani@gmail.com">Rigel.selmani@gmail.com</a>
             </div>
             <div className=" social-media-contact-nav px-5">
-               <a className="icon px-1 text-secondary" href="www.google.com"><i className="ti ti-brand-google"></i></a>
-               <a className="icon px-1 text-secondary" href="www.facebook.com"><i className="ti ti-brand-facebook-filled"></i></a>
-               <a className="icon px-1 text-secondary" href="www.twiter.com"><i className="ti ti-brand-twitter-filled"></i></a>
+               <a className="icon px-1 text-secondary" href="https://www.google.com/"><i className="ti ti-brand-google"></i></a>
+               <a className="icon px-1 text-secondary" href="https://www.facebook.com/"><i className="ti ti-brand-facebook-filled"></i></a>
+               <a className="icon px-1 text-secondary" href="https://twitter.com/"><i className="ti ti-brand-twitter-filled"></i></a>
             </div>
           </div>
           <div className="container-fluid mx-5">
