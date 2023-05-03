@@ -1,6 +1,23 @@
 .home-content{
     background-color: aliceblue;
 }
-.card-img-top{
-   
+.card-title{
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+.p-text{
+    letter-spacing: .5px;
+}
+.card-img-top {
+    border-radius: 12px;
+   }
+.info-btn{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(73, 145, 252);
+    padding: 10px 30px;
+    color: white;
+}
+.home-p-inovative{
+    font-weight: bold;
 }
