@@ -25,9 +25,6 @@ export default function  Nav (){
                 <li className="nav-item">
                   <a className="nav-link text-secondary" aria-current="page" href="/">HOME</a>
                 </li>
-                <li className="nav-item">
-                  <a className="nav-link text-secondary" href="/about">ABOUT US</a>
-                </li>
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle text-secondary" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     SERVICES
@@ -39,11 +36,14 @@ export default function  Nav (){
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-secondary" href="/residential">CONTACT US</a>
+                  <a className="nav-link text-secondary" href="/about">ABOUT US</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-secondary" href="/blog">Blog</a>
+                  <a className="nav-link text-secondary" href="/residential">CONTACT US</a>
                 </li>
+                <a className="nav-link phone text-primary fs-3 pt-0" href="tel:7038706927"><span className="material-symbols-outlined pt-0 fs-3" >
+phone_in_talk
+</span></a>
               </ul>
             </div>
           </div>
