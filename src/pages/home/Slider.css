@@ -1,0 +1,14 @@
+.btn-see-App{
+    text-decoration: none;
+    background-color: rgb(73, 145, 252);
+    padding: 12px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn-see-App:hover{
+    background-color: rgb(62, 138, 253);
+}
+.project{
+   padding:15px;
+}
