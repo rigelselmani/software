@@ -30,9 +30,11 @@ export default function  Nav (){
                     SERVICES
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/services/appdev">Aplication Development</a></li>
-                    <li><a className="dropdown-item" href="/services/sharepoint">Share Point Consulting</a></li>
-                    <li><a className="dropdown-item" href="/services/cloud"> Cloud Consulting</a></li>
+                    <li><a className="dropdown-item" href="/services/design">UI / UX Design</a></li>
+                    <li><a className="dropdown-item" href="/services/mobile-app-development">Mobile APP Development</a></li>
+                    <li><a className="dropdown-item" href="/services/web-development">Web Development</a></li>
+                    <li><a className="dropdown-item" href="/services/cloud-back-end"> Cloud BackEnd Server</a></li>
+                    <li><a className="dropdown-item" href="/services/app-maintenance">App Maintenance</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">

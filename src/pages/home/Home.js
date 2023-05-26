@@ -13,7 +13,7 @@ export default function Home(){
                 <h5 className="home-title mb-1 " style={{fontFamily:"roboto", color:"rgb(7,133,206)"}}>Mobile First</h5>
                 <p className="p-text mb-0">Responsive design & Development</p>
                 <p className="p-text">Make your Website & App work on desktop tablet mobile</p>
-                <button className="info-btn">More Info</button>
+                <a className="btn btn-primary"  href="/services/application-development">More Info</a>
               </div>
             </div>
             <div className="responsive-section-img" style={{ width: "36%", margin:" 40px 0"}}>

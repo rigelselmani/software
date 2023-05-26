@@ -3,6 +3,7 @@ import "./Appdev.css"
 import AppScreen from "./../../../images/app-screen.jpg"
 import MobileAppDev from "../../../images/App-dev.png"
 import AppImg from "../../../images/app-dev-cycle.jpeg"
+import Mern from "../../../images/MERN.webp"
 
 export default function AppDev(){
     return (
@@ -39,7 +40,7 @@ export default function AppDev(){
             <div className="card my-4 border-0 px-5" style={{maxWidth:"540px;"}}>
               <div className="row g-0">
                 <div className="col-md-6">
-                  <img src={MobileAppDev} className="img-fluid rounded" alt="mobile-dev" />
+                  <img src={Mern} className="img-fluid rounded" alt="mobile-dev" />
                 </div>
                 
                 <div className="col-md-6">

@@ -21,7 +21,7 @@ export default function HomeCard(){
           <img src={AppDev} className="card-img-top" alt="app-img" style={{height:"250px"}} />
           <div className="card-body p-0">
             <p className="card-text text-secondary">EXPERTS IN DEVELOPING COST EFFECTIVE AND CUTTING EDGE SOLUTIONS FOR WEB AND MOBILE.</p>
-            <a href="/" className="btn btn-primary">MORE INFO</a>
+            <a href="/services/application-development" className="btn btn-primary">MORE INFO</a>
           </div>
         </div>
         <div className="card p-4 px-2" style={{width: "25%"}}>

@@ -1,7 +1,7 @@
 export default function Cloud(){
-    return (
-            <div>
-                <h1>Cloud</h1>
-            </div>
-        )
+    return(
+        <div>
+           <h1>Cloud backend</h1>
+        </div>
+    )
 }
