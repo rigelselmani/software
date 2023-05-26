@@ -1,0 +1,13 @@
+.app-img{
+    height:350px;
+    margin-bottom:30px;
+    width:100%;
+}
+.app-dev-header{
+    position: absolute;
+    background-color: whitesmoke;
+    padding:20px;
+    border-radius:25px;
+    font-size: 30px;
+   
+}

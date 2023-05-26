@@ -30,16 +30,16 @@ export default function  Nav (){
                     SERVICES
                   </a>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="/comercial/retail">Aplication Development</a></li>
-                    <li><a className="dropdown-item" href="/comercial/restaurant">Share Point Consulting</a></li>
-                    <li><a className="dropdown-item" href="/comercial/properties"> Cloud Consulting</a></li>
+                    <li><a className="dropdown-item" href="/services/appdev">Aplication Development</a></li>
+                    <li><a className="dropdown-item" href="/services/sharepoint">Share Point Consulting</a></li>
+                    <li><a className="dropdown-item" href="/services/cloud"> Cloud Consulting</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link text-secondary" href="/about">ABOUT US</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-secondary" href="/residential">CONTACT US</a>
+                  <a className="nav-link text-secondary" href="/contact">CONTACT US</a>
                 </li>
                 <a className="nav-link phone text-primary fs-3 pt-0" href="tel:7038706927"><span className="material-symbols-outlined pt-0 fs-3" >
 phone_in_talk
