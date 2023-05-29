@@ -1,0 +1,99 @@
+.schedule{
+    width:40%;
+    margin: 0 auto 10px;
+    font-family:sans-serif;
+}
+.schedule-h3{
+    margin: 30px 0;
+    color:rgb(65, 111, 197);;
+    text-decoration: none;
+    font-size: 30px;
+}
+.schedule-h3:hover{
+    color:rgb(65, 111, 197);;
+}
+.schedule-p{
+    font-size: large;
+}
+.wrapper-schedule{
+    padding: 0 20px;
+    text-align: center;
+}
+.contact-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-group-item{
+    padding:13px;
+}
+.page-input{
+    padding:10px;
+    width:60%;
+    margin:5px 0;
+    border-radius: 5px;
+    border: 1px solid rgb(136, 135, 135);
+}
+input :hover{
+    border:1px solid rgb(155, 153, 153);
+}
+.btn{
+    margin-left:0;
+    margin-top:20px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(65, 111, 197);;
+    padding: 7px 40px;
+    transition: all .5s ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(65, 111, 197);;
+    color:white;
+    padding:8px 50px;
+    transform: scale(1.1); 
+    font-size: 25px;
+    
+}
+@media only screen and (max-width: 1890px) {
+    .schedule{
+       width:50%;
+    }
+    .wrapper{
+        text-align: start;
+    }
+    
+ }
+ @media only screen and (max-width: 1134px) {
+    .page-input{
+        width:80%;
+    }
+ }
+ @media only screen and (max-width: 768px){
+    .schedule {
+     width: 85%;
+     }
+    .page-input{
+        width:70%;
+    }
+
+}
+@media only screen and (max-width: 490px){
+    .schedule {
+     width: 100%;
+     }
+     .wrapper {
+        padding: 5PX 0px;
+    }
+   
+    .page-input{
+        width:85%;
+    }
+    .wrapper-schedule{
+        padding:0;
+    }
+}
+@media only screen and (max-width: 420px){
+     .wrapper {
+        padding: 5PX 0px;
+    }
+}

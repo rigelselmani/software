@@ -4,13 +4,13 @@
  .name, .email {
      padding: 30px;
      border: none;
-     background-color: rgb(189, 187, 189);
+     background-color: rgb(220, 236, 250);
  }
  .name{
      margin-right: 10px;
  }
  h2,h3{
-     color: #706f70;
+     color: rgb(73, 145, 252);
      font-size: xx-large;
  }
  .text-area{
@@ -18,13 +18,13 @@
      padding: 30px;
      border: none;
      margin: 20px auto;
-     background-color: rgb(187, 188, 189);
+     background-color: rgb(220, 236, 250);
  }
  .btn{
-     background-color: rgb(73, 145, 252);
+     background-color: rgb(220, 236, 250);
      padding:10px 35px;
      border: none;
-     color: white;
+     color: rgb(73, 145, 252);
      font-size: 20px;
  }
  .btn:hover{
@@ -37,7 +37,7 @@
  }
  .list-group-item{
      border: none;
-     background-color: rgb(187, 188, 189);
+     background-color: rgb(220, 236, 250);
  }
  .days-open{
      font-weight: bold;

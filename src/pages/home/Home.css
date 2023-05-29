@@ -2,11 +2,12 @@
     background-color: aliceblue;
 }
 .home-title{
-    font-size: 48px;
+    font-size: 43px;
     letter-spacing: 2px;
 }
-.p-text{
+.home-text{
     letter-spacing: .5px;
+    font-size: 18px;
 }
 .card-img-top {
     border-radius: 12px;

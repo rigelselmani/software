@@ -5,7 +5,7 @@ import OfficeSharepoint from "../../images/office-sharepoint.webp"
 export default function HomeCard(){
     return (
     <div className="container">  
-        <p className=" home-p-inovative p-4 fs-4 mx-5 justify-content-center fw-semibold display-6" style={{ letterSpacing:".9px"}}>We deliver innovative solutios for enterprise to stay agile, competitive, operationally lean, and empowers them to do MORE.</p>
+        <p className=" home p-4 fs-4 mx-5 justify-content-center" style={{ letterSpacing:".9px", fontFamily:"roboto", color:"rgb(7,133,206)"}}>We deliver innovative solutios for enterprise to stay agile, competitive, operationally lean, and empowers them to do MORE.</p>
         <h3 className="text-start" style={{marginLeft:"90px", fontFamily:"roboto", color:"rgb(7,133,206)"}}>SERVICES</h3>
       <div className="d-flex flex-row justify-content-evenly my-4">
         <div className="card bg-light  py-4 px-2" style={{width: "25%"}}>

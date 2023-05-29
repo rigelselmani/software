@@ -1,7 +1,7 @@
 import "./Slider.css"
-import First from "../../images/first-app.png"
+import First from "../../images/carpet-project.png"
 import Second from "../../images/second-app.jpg"
-import Third from "../../images/third-app.png"
+import Third from "../../images/hvac-project.png"
 export default function Slider (){
     return (
     <div id="carouselExampleCaptions" className="carousel slide p-3">

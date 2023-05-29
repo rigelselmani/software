@@ -1,0 +1,27 @@
+.app-img{
+    height:430px;
+    margin-bottom:30px;
+    width:100%;
+}
+.design-header{
+    position: absolute;
+    padding:100px 0 0 150px;
+    color:rgb(246, 241, 241);
+    font-size: 30px;
+}
+.p-header{
+    line-height: .5;
+}
+.req-quote-btn{
+    border: none;
+    padding:6px 9px;
+    color:rgb(20, 108, 148);
+    border-radius: 5px;
+    background-color: rgb(246, 241, 241);
+    font-size: 14px;
+}
+.img-design{
+    width:330px;
+    border-radius: 50px;
+    height:200px;
+}
