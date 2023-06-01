@@ -1,6 +1,6 @@
 import AppDev from "../../images/mobile-app-dev.jpg"
 import Cloud from "../../images/cloud.jpg"
-import OfficeSharepoint from "../../images/office-sharepoint.webp"
+import Web from "../../images/WEB.jpg"
 
 export default function HomeCard(){
     return (
@@ -13,7 +13,7 @@ export default function HomeCard(){
           <img src={Cloud} className="card-img-top" alt="cloud-img" style={{height:"250px"}} />
           <div className="card-body p-0">
             <p className="card-text text-secondary">IMPROVE AGILITY, ACCESS CRITICAL INFORMATION EVERYWHERE AND REDUCE CAPITAL COSTS WITH MODERN CLOUD SOLUTIONS ON AZURE.</p>
-            <a href="/" className="btn btn-primary">MORE INFO</a>
+            <a href="/services/cloud-back-end" className="btn btn-primary">MORE INFO</a>
           </div>
         </div>
         <div className="card bg-light p-4 px-2" style={{width: "25%"}}>
@@ -25,11 +25,11 @@ export default function HomeCard(){
           </div>
         </div>
         <div className="card p-4 px-2" style={{width: "25%"}}>
-          <h5 className="card-title mb-4">Office 365 & SharePoint</h5>
-          <img src={OfficeSharepoint} className="card-img-top" alt="office-sharepoint" style={{height:"250px"}} />
+          <h5 className="card-title mb-4">Web Development</h5>
+          <img src={Web} className="card-img-top" alt="office-sharepoint" style={{height:"250px"}} />
           <div className="card-body p-0">
-            <p className="card-text text-secondary">LET US HELP YOU MODERNIZED COLLABORATION SOLUTIONS VIA SHAREPOINT 2013, SHAREPOINT ONLINE AND OFFICE 365.</p>
-            <a href="/" className="btn btn-primary">MORE INFO</a>
+            <p className="card-text text-secondarY">WE COMBINE OUR STRENGTHS IN NEW TECHNOLOGY WITH THE KNWLEDGE OF NODEJS AND MERN STACK TO BUILD WEBSITES OF ANY SCALE, SIZE, AND DOMAIN.</p>
+            <a href="/services/web-development" className="btn btn-primary">MORE INFO</a>
           </div>
         </div>
       </div>  

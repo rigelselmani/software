@@ -1,8 +1,8 @@
 import Contact from "../../ContactForm/Contact-form";
 
 import Design from "../../../images/design.jpg"
-import Mern from "../../../images/MERN.webp"
-import AppScreen from "./../../../images/app-screen.jpg"
+import Mern from "../../../images/mern-stack.jpg"
+import AppScreen from "./../../../images/mobile-design.jpg"
 import IosAndrWIND from "./../../../images/ios-andr-wind.jpg"
 
 import "./Mobile.css"
@@ -50,8 +50,8 @@ export default function Mobile(){
                  </div>
                  <div className="col-md-6">
                    <div className="card-body text-start">
-                     <h5 className="card-title text-primary">Develop innovative React JS, AngularJS, MERN Stack Application</h5>
-                     <p className="card-text text-secondary">Developing a specialized is challenging, without proper experience and expertise in modern tools, frameworks, and technologies can be time-intensive and expensive. Software Solution consultants are always forefront on building a solution that leverages the cutting edge technologies such as ReactJS Angular, NodeJS Firebase, MondoDB. We have helped many businesses to modernize and migrate existing legacy applications to MERN stack to save cost, improve productivity and access information anywhere and anytime.</p>
+                     <h5 className="card-title text-primary">Develop innovative React Native, Angular, MERN Stack Application</h5>
+                     <p className="card-text text-secondary">Developing a specialized is challenging, without proper experience and expertise in modern tools, frameworks, and technologies can be time-intensive and expensive. Software Solution consultants are always forefront on building a solution that leverages the cutting edge technologies such as ReactNative Angular, NodeJS Firebase, MondoDB. We have helped many businesses to modernize and migrate existing legacy applications to MERN stack to save cost, improve productivity and access information anywhere and anytime.</p>
                    </div>
                  </div>
                </div>
