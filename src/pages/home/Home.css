@@ -1,5 +1,6 @@
 .home-content{
     background-color: aliceblue;
+    padding:20px;
 }
 .home-title{
     font-size: 43px;
@@ -9,9 +10,17 @@
     letter-spacing: .5px;
     font-size: 18px;
 }
-.card-img-top {
-    border-radius: 12px;
+.card-img {
+    max-width:30%;
+    height:320px;
+    margin: 0px 20px;
    }
+.home-section{
+    font-family:roboto ; 
+    color:rgb(7,133,206);
+    padding:40px 10px 0 30px;
+    width:40%;
+}
 .info-btn{
     border: none;
     border-radius: 10px;
@@ -22,6 +31,91 @@
 .home-p-inovative{
     font-weight: bold;
 }
-.card{
+.card-box{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+.card-home{
    border-top: 3px solid black;
+   width: 25%;
+   border-bottom :none;
+   border-left: none;
+   border-right:none;
+
+}
+.card-body{
+   
+}
+.more-info{
+    margin-top: auto;
+    align-self: end;
+}
+.home{
+    letter-Spacing: .9px;
+    font-Family:roboto; 
+    color:rgb(7,133,206);
+    padding:20px 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 1530px){
+      
+    .card-img {
+        max-width:40%;
+       }
+}
+@media only screen and (max-width: 1024px){
+      
+    .card-img {
+        max-width:50%;
+       }
+    .card-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-home{
+        width: 65%;
+        border: 1px solid grey;
+        margin:10px auto;
+        padding: 10px;
+    }
+    .home-section{
+        padding:40px 0;
+        width:45%;
+    }
+    .home{
+        padding:0;
+        margin:0;
+    }
+}
+@media only screen and (max-width: 768px){
+    .card-img {
+        display: none;
+       }
+    .home-section{
+        padding:40px 0;
+        width:85%;
+    }
+    .home{
+        padding:0;
+        margin:0;
+    }
+    .card-home{
+        width: 85%;
+        border: 1px solid grey;
+        margin:10px auto;
+        padding: 10px;
+    }
+    .home-title{
+        font-size: 50px;
+    }
+    .home-text{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 391px){
+    .home-content{
+        padding:0;
+    }
 }

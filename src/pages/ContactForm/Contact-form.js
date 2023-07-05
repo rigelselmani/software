@@ -15,7 +15,7 @@ export default function Schedule (){
        console.log( "1:",fullname, "2:",number, "3:",email, "4:",message)
        send(
         "service_qjoznwa",
-        "template_5vl4eys",
+        "template_c5d4hhh",
         {fullname, number, email, message},
         "cg_p1GRyMNmDPq4tH"
       ).then((response)=> {

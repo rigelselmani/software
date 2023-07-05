@@ -5,7 +5,7 @@ export default function  Nav (){
 
     return (
     <nav className="navbar navbar-expand-lg container d-flex flex-column bg-white sticky-top  pt-0">
-          <div className="links contact-nav container-fluid d-flex flex-row justify-content-between text-bg-light">
+          <div className=" links contact-nav container-fluid d-flex flex-row justify-content-between text-bg-light m-0">
             <div className="email-contactNav">
                <a className="email-contac" href="mailto: rigel.selmani@gmail.com">Rigel.selmani@gmail.com</a>
             </div>
@@ -15,7 +15,7 @@ export default function  Nav (){
                <a className="icon px-1 text-secondary" href="https://twitter.com/"><i className="ti ti-brand-twitter-filled"></i></a>
             </div>
           </div>
-          <div className="container-fluid mx-5">
+          <div className="container-fluid">
                 <a className="navbar-brand text-primary fs-3 fst-italic " href="/"><span className="text-bg-dark px-4 m-0 rounded-3">Software</span> Services</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
@@ -31,10 +31,9 @@ export default function  Nav (){
                   </a>
                   <ul className="dropdown-menu">
                     <li><a className="dropdown-item" href="/services/design">UI / UX Design</a></li>
-                    <li><a className="dropdown-item" href="/services/mobile-app-development">Mobile APP Development</a></li>
                     <li><a className="dropdown-item" href="/services/web-development">Web Development</a></li>
                     <li><a className="dropdown-item" href="/services/cloud-back-end"> Cloud BackEnd Server</a></li>
-                    <li><a className="dropdown-item" href="/services/app-maintenance">App Maintenance</a></li>
+                    <li><a className="dropdown-item" href="/services/digital-marketing">Digital Marketing</a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
@@ -44,8 +43,8 @@ export default function  Nav (){
                   <a className="nav-link text-secondary" href="/contact">CONTACT US</a>
                 </li>
                 <a className="nav-link phone text-primary fs-3 pt-0" href="tel:7038706927"><span className="material-symbols-outlined pt-0 fs-3" >
-phone_in_talk
-</span></a>
+                    phone_in_talk
+                   </span></a>
               </ul>
             </div>
           </div>

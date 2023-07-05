@@ -1,3 +1,5 @@
+import ContactForm from "../ContactForm/Contact-form"
+import Slider from "./slider/Slider"
 import Design from "../../images/design.jpg"
 
 export default function About(){
@@ -20,6 +22,9 @@ export default function About(){
                     <li>In-house Design and User Experience (UX) Teams to deliver modern, intuitive and immersive experience for Mobile, Tablet and Desktop.</li>
                 </ol>
             </div>
+            <h3>Projects</h3>
+            <Slider />
+            <ContactForm />
         </div>
     )
 }

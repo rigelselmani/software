@@ -16,7 +16,14 @@
 
  .links{
     border-bottom: .4px solid rgb(231, 230, 230);
+    margin-left: -20px;
  }
  .icon{
     text-decoration: none;
  }
+
+ @media only screen and (max-width: 991px){
+    .links{
+        margin-left: 0px;
+     }
+}

@@ -1,7 +1,7 @@
 import "./Slider.css"
-import First from "../../images/carpet-project.png"
-import Second from "../../images/second-app.jpg"
-import Third from "../../images/hvac-project.png"
+import First from "../../../images/carpet-project.png"
+import Second from "../../../images/second-app.jpg"
+import Third from "../../../images/hvac-project.png"
 export default function Slider (){
     return (
     <div id="carouselExampleCaptions" className="carousel slide p-3">
@@ -14,7 +14,7 @@ export default function Slider (){
             <div className="carousel-item active">
               <div className=" bg-secondary" alt="..."  style={{height:"650px"}}>
               <div className="d-flex flex-column carousel-caption d-none d-md-block p-3">
-                 <img src={First} className="pb-3" alt="..." style={{height:"500px",width:"70%", borderRadius:"10px"}}/>
+                 <img src={First} className="slider-img pb-3" alt="..."/>
                  <h5 className="project">Pure Carpet</h5>
                  <a className="btn-see-App text-white seeApp-home" href="https://carpet-64b3e.firebaseapp.com/">See App</a>
               </div>
@@ -23,7 +23,7 @@ export default function Slider (){
         <div className="carousel-item">
           <div className=" bg-secondary" alt="..."  style={{height:"650px"}}>
             <div className="d-flex flex-column carousel-caption d-none d-md-block p-3">
-                 <img src={Second} className="pb-3" alt="..." style={{height:"500px",width:"30%", borderRadius:"10px"}}/>
+                 <img src={Second} className="slider-img pb-3" alt="..."/>
                  <h5 className="project">Vanessa Nail SPA</h5>
                  <a className="btn-see-App text-white seeApp-home" href="https://carpet-64b3e.firebaseapp.com/">See App</a>
             </div>
@@ -32,7 +32,7 @@ export default function Slider (){
             <div className="carousel-item">
               <div className=" bg-secondary" alt="..."  style={{height:"650px"}}>
               <div className="d-flex flex-column carousel-caption d-none d-md-block p-3">
-                 <img src={Third} className="pb-3" alt="..." style={{height:"500px",width:"70%", borderRadius:"10px"}}/>
+                 <img src={Third} className="slider-img pb-3" alt="..."/>
                  <h5 className="project">Tony HVAC</h5>
                  <a className="btn-see-App text-white seeApp-home" href="https://carpet-64b3e.firebaseapp.com/">See App</a>
             </div>

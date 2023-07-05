@@ -25,3 +25,32 @@
     border-radius: 50px;
     height:200px;
 }
+
+.design-description-page{
+    padding:10px;
+}
+@media only screen and (max-width: 889px){
+    
+    .app-img{
+        height:300px;
+    }
+    .design-header{
+        text-shadow: 2px 2px grey;
+    }
+}
+@media only screen and (max-width: 600px){
+    
+    .app-img{
+        height:250px;
+    }
+    .design-description-page{
+        text-align: left;
+    }
+    .design-header{
+        line-height: 20px;
+        padding:50px 0 0 25px;
+        color:rgb(246, 241, 241);
+        text-shadow: 2px 2px grey;
+        font-size: 20px;
+    }
+}
